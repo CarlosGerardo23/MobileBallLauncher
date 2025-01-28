@@ -1,7 +1,9 @@
-using UnityEngine;
 
 public static class DictionaryScriptableObject
 {
-    //Levels
-    //public string 
+    //Fields
+    public const string BaseField = "ScriptableObjects/";
+    public const string InptuField = "Input/";
+    //Orders
+    public const int InputReaderSOOrder = 0;
 }
