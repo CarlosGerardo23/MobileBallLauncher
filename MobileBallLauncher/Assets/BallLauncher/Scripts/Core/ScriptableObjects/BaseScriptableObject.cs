@@ -1,7 +1,9 @@
 using UnityEngine;
-
-public abstract class BaseScriptableObject : ScriptableObject
+namespace BallLauncher.Core.ScriptableObjects
 {
-    [TextArea(3, 10)]
-    [SerializeField] private string _developerDescription = null;
+    public abstract class BaseScriptableObject : ScriptableObject
+    {
+        [TextArea(3, 10)]
+        [SerializeField] private string _developerDescription = null;
+    }
 }
